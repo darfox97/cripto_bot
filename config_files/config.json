@@ -1,0 +1,18 @@
+{
+    "url": "https://www.coingecko.com",
+    "criptomonedas": [
+        "Bitcoin",
+        "Ethereum",
+        "Cardano",
+        "Polkadot",
+        "TRON"
+    ],
+    "correo": {
+        "usuario": "david.moragarces@plexus.es",
+        "contrasena": "variable_entorno",
+        "destinatario": "david.moragarces@plexus.es"
+    },
+    "programacion": {
+        "hora": "12:00"
+    }
+}
