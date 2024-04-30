@@ -6,13 +6,10 @@ import gestion_config
 import analyze_web
 import csv_manager
 import email_manager
-# ¿Por qué funciona sin importar la clase Coin?
-# from coin import Coin
-
 # Obtiene un objeto Configuration con la configuración especificada en un archivo json:
 configuration = gestion_config.get_config()
 
-# Obtiene una lista de objetos Coin, que incluyen datos como el precio, mediante web scrapping:
+# Obtiene una lista de objetos Coin, que incluyen datos cpipomo el precio, mediante web scrapping:
 coin_data = analyze_web.get_all_coin_data(configuration)
 
 # Obtiene la lista de filas del fichero prices.csv:
